@@ -1,0 +1,14 @@
+C:\Users\s201442\source\repos\ifStatementsExercise\ifStatementsExercise\bin\Debug\netcoreapp3.1\ifStatementsExercise.exe
+C:\Users\s201442\source\repos\ifStatementsExercise\ifStatementsExercise\bin\Debug\netcoreapp3.1\ifStatementsExercise.deps.json
+C:\Users\s201442\source\repos\ifStatementsExercise\ifStatementsExercise\bin\Debug\netcoreapp3.1\ifStatementsExercise.runtimeconfig.json
+C:\Users\s201442\source\repos\ifStatementsExercise\ifStatementsExercise\bin\Debug\netcoreapp3.1\ifStatementsExercise.runtimeconfig.dev.json
+C:\Users\s201442\source\repos\ifStatementsExercise\ifStatementsExercise\bin\Debug\netcoreapp3.1\ifStatementsExercise.dll
+C:\Users\s201442\source\repos\ifStatementsExercise\ifStatementsExercise\bin\Debug\netcoreapp3.1\ifStatementsExercise.pdb
+C:\Users\s201442\source\repos\ifStatementsExercise\ifStatementsExercise\obj\Debug\netcoreapp3.1\ifStatementsExercise.csproj.AssemblyReference.cache
+C:\Users\s201442\source\repos\ifStatementsExercise\ifStatementsExercise\obj\Debug\netcoreapp3.1\ifStatementsExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s201442\source\repos\ifStatementsExercise\ifStatementsExercise\obj\Debug\netcoreapp3.1\ifStatementsExercise.AssemblyInfoInputs.cache
+C:\Users\s201442\source\repos\ifStatementsExercise\ifStatementsExercise\obj\Debug\netcoreapp3.1\ifStatementsExercise.AssemblyInfo.cs
+C:\Users\s201442\source\repos\ifStatementsExercise\ifStatementsExercise\obj\Debug\netcoreapp3.1\ifStatementsExercise.csproj.CoreCompileInputs.cache
+C:\Users\s201442\source\repos\ifStatementsExercise\ifStatementsExercise\obj\Debug\netcoreapp3.1\ifStatementsExercise.dll
+C:\Users\s201442\source\repos\ifStatementsExercise\ifStatementsExercise\obj\Debug\netcoreapp3.1\ifStatementsExercise.pdb
+C:\Users\s201442\source\repos\ifStatementsExercise\ifStatementsExercise\obj\Debug\netcoreapp3.1\ifStatementsExercise.genruntimeconfig.cache

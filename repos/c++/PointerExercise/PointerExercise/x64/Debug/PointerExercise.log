@@ -1,0 +1,6 @@
+﻿  Monster.cpp
+  PointerExercise.cpp
+C:\Users\s201442\source\repos\c++\PointerExercise\PointerExercise\PointerExercise.cpp(23,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  LINK : C:\Users\s201442\source\repos\c++\PointerExercise\x64\Debug\PointerExercise.exe not found or not built by the last incremental link; performing full link
+  PointerExercise.vcxproj -> C:\Users\s201442\source\repos\c++\PointerExercise\x64\Debug\PointerExercise.exe

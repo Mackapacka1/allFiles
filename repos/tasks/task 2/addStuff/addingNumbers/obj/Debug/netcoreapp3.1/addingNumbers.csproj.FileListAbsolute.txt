@@ -1,0 +1,14 @@
+C:\Users\s201442\source\repos\addingNumbers\addingNumbers\bin\Debug\netcoreapp3.1\addingNumbers.exe
+C:\Users\s201442\source\repos\addingNumbers\addingNumbers\bin\Debug\netcoreapp3.1\addingNumbers.deps.json
+C:\Users\s201442\source\repos\addingNumbers\addingNumbers\bin\Debug\netcoreapp3.1\addingNumbers.runtimeconfig.json
+C:\Users\s201442\source\repos\addingNumbers\addingNumbers\bin\Debug\netcoreapp3.1\addingNumbers.runtimeconfig.dev.json
+C:\Users\s201442\source\repos\addingNumbers\addingNumbers\bin\Debug\netcoreapp3.1\addingNumbers.dll
+C:\Users\s201442\source\repos\addingNumbers\addingNumbers\bin\Debug\netcoreapp3.1\addingNumbers.pdb
+C:\Users\s201442\source\repos\addingNumbers\addingNumbers\obj\Debug\netcoreapp3.1\addingNumbers.csproj.AssemblyReference.cache
+C:\Users\s201442\source\repos\addingNumbers\addingNumbers\obj\Debug\netcoreapp3.1\addingNumbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s201442\source\repos\addingNumbers\addingNumbers\obj\Debug\netcoreapp3.1\addingNumbers.AssemblyInfoInputs.cache
+C:\Users\s201442\source\repos\addingNumbers\addingNumbers\obj\Debug\netcoreapp3.1\addingNumbers.AssemblyInfo.cs
+C:\Users\s201442\source\repos\addingNumbers\addingNumbers\obj\Debug\netcoreapp3.1\addingNumbers.csproj.CoreCompileInputs.cache
+C:\Users\s201442\source\repos\addingNumbers\addingNumbers\obj\Debug\netcoreapp3.1\addingNumbers.dll
+C:\Users\s201442\source\repos\addingNumbers\addingNumbers\obj\Debug\netcoreapp3.1\addingNumbers.pdb
+C:\Users\s201442\source\repos\addingNumbers\addingNumbers\obj\Debug\netcoreapp3.1\addingNumbers.genruntimeconfig.cache

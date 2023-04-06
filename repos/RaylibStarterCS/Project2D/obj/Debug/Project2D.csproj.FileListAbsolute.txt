@@ -1,0 +1,16 @@
+C:\Users\adam.schmidt\Documents\RaylibStarterCS\Project2D\bin\Debug\Project2D.exe.config
+C:\Users\adam.schmidt\Documents\RaylibStarterCS\Project2D\bin\Debug\Project2D.exe
+C:\Users\adam.schmidt\Documents\RaylibStarterCS\Project2D\bin\Debug\Project2D.pdb
+C:\Users\adam.schmidt\Documents\RaylibStarterCS\Project2D\obj\Debug\Project2D.csproj.AssemblyReference.cache
+C:\Users\adam.schmidt\Documents\RaylibStarterCS\Project2D\obj\Debug\Project2D.csproj.SuggestedBindingRedirects.cache
+C:\Users\adam.schmidt\Documents\RaylibStarterCS\Project2D\obj\Debug\Project2D.csproj.CoreCompileInputs.cache
+C:\Users\adam.schmidt\Documents\RaylibStarterCS\Project2D\obj\Debug\Project2D.exe
+C:\Users\adam.schmidt\Documents\RaylibStarterCS\Project2D\obj\Debug\Project2D.pdb
+C:\Users\s201442\source\repos\RaylibStarterCS\Project2D\bin\Debug\Project2D.exe.config
+C:\Users\s201442\source\repos\RaylibStarterCS\Project2D\bin\Debug\Project2D.exe
+C:\Users\s201442\source\repos\RaylibStarterCS\Project2D\bin\Debug\Project2D.pdb
+C:\Users\s201442\source\repos\RaylibStarterCS\Project2D\obj\Debug\Project2D.csproj.AssemblyReference.cache
+C:\Users\s201442\source\repos\RaylibStarterCS\Project2D\obj\Debug\Project2D.csproj.SuggestedBindingRedirects.cache
+C:\Users\s201442\source\repos\RaylibStarterCS\Project2D\obj\Debug\Project2D.csproj.CoreCompileInputs.cache
+C:\Users\s201442\source\repos\RaylibStarterCS\Project2D\obj\Debug\Project2D.exe
+C:\Users\s201442\source\repos\RaylibStarterCS\Project2D\obj\Debug\Project2D.pdb

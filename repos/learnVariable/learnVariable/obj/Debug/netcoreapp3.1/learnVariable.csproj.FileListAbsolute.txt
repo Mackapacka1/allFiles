@@ -1,0 +1,14 @@
+C:\Users\s201442\source\repos\learnVariable\learnVariable\bin\Debug\netcoreapp3.1\learnVariable.exe
+C:\Users\s201442\source\repos\learnVariable\learnVariable\bin\Debug\netcoreapp3.1\learnVariable.deps.json
+C:\Users\s201442\source\repos\learnVariable\learnVariable\bin\Debug\netcoreapp3.1\learnVariable.runtimeconfig.json
+C:\Users\s201442\source\repos\learnVariable\learnVariable\bin\Debug\netcoreapp3.1\learnVariable.runtimeconfig.dev.json
+C:\Users\s201442\source\repos\learnVariable\learnVariable\bin\Debug\netcoreapp3.1\learnVariable.dll
+C:\Users\s201442\source\repos\learnVariable\learnVariable\bin\Debug\netcoreapp3.1\learnVariable.pdb
+C:\Users\s201442\source\repos\learnVariable\learnVariable\obj\Debug\netcoreapp3.1\learnVariable.csproj.AssemblyReference.cache
+C:\Users\s201442\source\repos\learnVariable\learnVariable\obj\Debug\netcoreapp3.1\learnVariable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s201442\source\repos\learnVariable\learnVariable\obj\Debug\netcoreapp3.1\learnVariable.AssemblyInfoInputs.cache
+C:\Users\s201442\source\repos\learnVariable\learnVariable\obj\Debug\netcoreapp3.1\learnVariable.AssemblyInfo.cs
+C:\Users\s201442\source\repos\learnVariable\learnVariable\obj\Debug\netcoreapp3.1\learnVariable.csproj.CoreCompileInputs.cache
+C:\Users\s201442\source\repos\learnVariable\learnVariable\obj\Debug\netcoreapp3.1\learnVariable.dll
+C:\Users\s201442\source\repos\learnVariable\learnVariable\obj\Debug\netcoreapp3.1\learnVariable.pdb
+C:\Users\s201442\source\repos\learnVariable\learnVariable\obj\Debug\netcoreapp3.1\learnVariable.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+C:\Users\s201442\source\repos\tasks\task 4\SortWords\SortWords\bin\Release\netcoreapp3.1\SortWords.exe
+C:\Users\s201442\source\repos\tasks\task 4\SortWords\SortWords\bin\Release\netcoreapp3.1\SortWords.deps.json
+C:\Users\s201442\source\repos\tasks\task 4\SortWords\SortWords\bin\Release\netcoreapp3.1\SortWords.runtimeconfig.json
+C:\Users\s201442\source\repos\tasks\task 4\SortWords\SortWords\bin\Release\netcoreapp3.1\SortWords.runtimeconfig.dev.json
+C:\Users\s201442\source\repos\tasks\task 4\SortWords\SortWords\bin\Release\netcoreapp3.1\SortWords.dll
+C:\Users\s201442\source\repos\tasks\task 4\SortWords\SortWords\bin\Release\netcoreapp3.1\SortWords.pdb
+C:\Users\s201442\source\repos\tasks\task 4\SortWords\SortWords\obj\Release\netcoreapp3.1\SortWords.csproj.AssemblyReference.cache
+C:\Users\s201442\source\repos\tasks\task 4\SortWords\SortWords\obj\Release\netcoreapp3.1\SortWords.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s201442\source\repos\tasks\task 4\SortWords\SortWords\obj\Release\netcoreapp3.1\SortWords.AssemblyInfoInputs.cache
+C:\Users\s201442\source\repos\tasks\task 4\SortWords\SortWords\obj\Release\netcoreapp3.1\SortWords.AssemblyInfo.cs
+C:\Users\s201442\source\repos\tasks\task 4\SortWords\SortWords\obj\Release\netcoreapp3.1\SortWords.csproj.CoreCompileInputs.cache
+C:\Users\s201442\source\repos\tasks\task 4\SortWords\SortWords\obj\Release\netcoreapp3.1\SortWords.dll
+C:\Users\s201442\source\repos\tasks\task 4\SortWords\SortWords\obj\Release\netcoreapp3.1\SortWords.pdb
+C:\Users\s201442\source\repos\tasks\task 4\SortWords\SortWords\obj\Release\netcoreapp3.1\SortWords.genruntimeconfig.cache

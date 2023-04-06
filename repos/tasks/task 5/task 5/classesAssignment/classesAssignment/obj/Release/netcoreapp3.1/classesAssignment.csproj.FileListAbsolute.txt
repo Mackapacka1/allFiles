@@ -1,0 +1,14 @@
+C:\Users\s201442\source\repos\c++\classesAssignment\classesAssignment\bin\Release\netcoreapp3.1\classesAssignment.exe
+C:\Users\s201442\source\repos\c++\classesAssignment\classesAssignment\bin\Release\netcoreapp3.1\classesAssignment.deps.json
+C:\Users\s201442\source\repos\c++\classesAssignment\classesAssignment\bin\Release\netcoreapp3.1\classesAssignment.runtimeconfig.json
+C:\Users\s201442\source\repos\c++\classesAssignment\classesAssignment\bin\Release\netcoreapp3.1\classesAssignment.runtimeconfig.dev.json
+C:\Users\s201442\source\repos\c++\classesAssignment\classesAssignment\bin\Release\netcoreapp3.1\classesAssignment.dll
+C:\Users\s201442\source\repos\c++\classesAssignment\classesAssignment\bin\Release\netcoreapp3.1\classesAssignment.pdb
+C:\Users\s201442\source\repos\c++\classesAssignment\classesAssignment\obj\Release\netcoreapp3.1\classesAssignment.csproj.AssemblyReference.cache
+C:\Users\s201442\source\repos\c++\classesAssignment\classesAssignment\obj\Release\netcoreapp3.1\classesAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s201442\source\repos\c++\classesAssignment\classesAssignment\obj\Release\netcoreapp3.1\classesAssignment.AssemblyInfoInputs.cache
+C:\Users\s201442\source\repos\c++\classesAssignment\classesAssignment\obj\Release\netcoreapp3.1\classesAssignment.AssemblyInfo.cs
+C:\Users\s201442\source\repos\c++\classesAssignment\classesAssignment\obj\Release\netcoreapp3.1\classesAssignment.csproj.CoreCompileInputs.cache
+C:\Users\s201442\source\repos\c++\classesAssignment\classesAssignment\obj\Release\netcoreapp3.1\classesAssignment.dll
+C:\Users\s201442\source\repos\c++\classesAssignment\classesAssignment\obj\Release\netcoreapp3.1\classesAssignment.pdb
+C:\Users\s201442\source\repos\c++\classesAssignment\classesAssignment\obj\Release\netcoreapp3.1\classesAssignment.genruntimeconfig.cache
