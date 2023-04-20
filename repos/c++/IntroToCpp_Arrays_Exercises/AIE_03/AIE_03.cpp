@@ -1,9 +1,7 @@
-
-
 #include <iostream>
 #include <string>
 
-const int* BinarySearch(const int* arr, int count, int searchVal);
+const int* BinarySearch(const int* arr, int count,int r, int searchVal);
 void TestResult(const int* result, int* const expected);
 
 
@@ -15,11 +13,11 @@ int main(int argc, char** argv)
 	// The numbers in the array are assumed to be sorted
 	// search for the values 9, 1, 15, 0
 
-	TestResult( BinarySearch(arr1, NUM_ITEMS, 9),  &arr1[4]   );
-	TestResult( BinarySearch(arr1, NUM_ITEMS, 1),  &arr1[0]   );
-	TestResult( BinarySearch(arr1, NUM_ITEMS, 15), &arr1[7]   );
-	TestResult( BinarySearch(arr1, NUM_ITEMS, 0),  nullptr    );
-	TestResult( BinarySearch(arr1, NUM_ITEMS, 16), nullptr    );
+	TestResult( BinarySearch(arr1, NUM_ITEMS, NUM_ITEMS -1, 9),  &arr1[4]   );
+	TestResult( BinarySearch(arr1, NUM_ITEMS, NUM_ITEMS - 1, 1),  &arr1[0]   );
+	TestResult( BinarySearch(arr1, NUM_ITEMS, NUM_ITEMS - 1, 15), &arr1[7]   );
+	TestResult( BinarySearch(arr1, NUM_ITEMS, NUM_ITEMS - 1, 0),  nullptr    );
+	TestResult( BinarySearch(arr1, NUM_ITEMS, NUM_ITEMS - 1, 16), nullptr    );
 
 
 	return 0;
@@ -39,21 +37,26 @@ void TestResult(const int* result, int* const expected)
 		(expected == nullptr ? "nullptr" : std::to_string(*expected).c_str()) << ")" << std::endl;
 }
 
-const int* BinarySearch(const int* arr, int count, int searchVal)
+const int* BinarySearch(int arr[], int l, int r, int x)
 {
-	// TODO: Implement a binary search
-	// the array is assumed to be sorted
-
-	// This method should:
-	//	- Return: nullptr if the value is not found
-	//  - Return: pointer to the found value in the array
-
-	while (true) {
-		searchVal = -1;
-		
-		if (searchVal == -1)
-			break;
-
+    if (r >= l) {
+        int mid = l + (r - l) / 2;
+ 
+        // If the element is present at the middle
+        // itself
+        if (arr[mid] == x)
+            return &mid;
+ 
+        // If element is smaller than mid, then
+        // it can only be present in left subarray
+        if (arr[mid] > x)
+            BinarySearch(arr, l, mid - 1, x);
+ 
+        // Else the element can only be present
+        // in right subarray
+        BinarySearch(arr, mid + 1, r, x);
+    }
+		return nullptr;
 	
-	return nullptr;
+
 }

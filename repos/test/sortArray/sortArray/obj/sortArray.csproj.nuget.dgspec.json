@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s201442\\source\\repos\\test\\sortArray\\sortArray\\sortArray.csproj": {}
+    "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\test\\sortArray\\sortArray\\sortArray.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s201442\\source\\repos\\test\\sortArray\\sortArray\\sortArray.csproj": {
+    "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\test\\sortArray\\sortArray\\sortArray.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s201442\\source\\repos\\test\\sortArray\\sortArray\\sortArray.csproj",
+        "projectUniqueName": "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\test\\sortArray\\sortArray\\sortArray.csproj",
         "projectName": "sortArray",
-        "projectPath": "C:\\Users\\s201442\\source\\repos\\test\\sortArray\\sortArray\\sortArray.csproj",
+        "projectPath": "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\test\\sortArray\\sortArray\\sortArray.csproj",
         "packagesPath": "C:\\Users\\s201442\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s201442\\source\\repos\\test\\sortArray\\sortArray\\obj\\",
+        "outputPath": "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\test\\sortArray\\sortArray\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\s201442\\AppData\\Roaming\\NuGet\\NuGet.Config",

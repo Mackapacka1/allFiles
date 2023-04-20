@@ -24,12 +24,19 @@ int main(int argc, char** argv)
 	//		b0, b1, b2, b3, b4,
 	//		c0, c1, c2, c3, c4,
 	// ------------------------------------------------------------------------
+	for (size_t i = 0; i < ROWS; i++)
+	{
+		for (size_t j = 0; j < COLS; j++)
+		{
+			std::cout << grid2D[i][j] << ", ";
+		}
+		std::cout << "\n";
+	}
 
-
-
+	std::cout << "\n";
+	std::cout << "\n";
 
 	// ------------------------------------------------------------------------
-
 
 
 
@@ -41,6 +48,22 @@ int main(int argc, char** argv)
 	// Expected output:
 	//		a0, a1, a2, a3, a4, b0, b1, b2, b3, b4, c0, c1, c2, c3, c4,
 	// ------------------------------------------------------------------------
+	int i = 0; 
+	int j = 0;
+	int k = 0;
+	while (k<15)
+	{
+
+		std::cout << grid2D[i][j] << ", ";
+		k++;		
+		i = k / 5;
+		j = k % 5;
+
+	}
+
+	std::cout << "\n";
+	std::cout << "\n";
+	std::cout << "\n";
 
 	for (int index = 0; index < ROWS * COLS; index++)
 	{
@@ -49,7 +72,8 @@ int main(int argc, char** argv)
 		int colIndex = 0;
 
 		// use the resulting row and column index to print the value
-		std::cout << grid2D[rowIndex][colIndex] << ", ";
+
+		//std::cout << grid2D[rowIndex][colIndex] << ", ";
 	}
 
 	// ------------------------------------------------------------------------
@@ -71,6 +95,18 @@ int main(int argc, char** argv)
 	//		b0, b1, b2, b3, b4,
 	//		c0, c1, c2, c3, c4,
 	// ------------------------------------------------------------------------
+	int h = 0;
+	for (size_t i = 0; i < ROWS; i++)
+	{
+		for (size_t j = 0; j < COLS; j++)
+		{
+			h = i * 3 + j;
+			std::cout << grid1D[h] << ", ";
+		}
+		std::cout << "\n";
+	}
+
+
 
 	for (int rowIndex = 0; rowIndex < ROWS; rowIndex++)
 	{
@@ -80,7 +116,7 @@ int main(int argc, char** argv)
 			int index = 0; 
 
 			// use the resulting index to print the value
-			std::cout << grid1D[index] << ", ";
+			//std::cout << grid1D[index] << ", ";
 		}
 		std::cout << std::endl;
 	}

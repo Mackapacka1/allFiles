@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s201442\\source\\repos\\addingNumbers\\addingNumbers\\addingNumbers.csproj": {}
+    "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\addingNumbers\\addingNumbers\\addingNumbers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s201442\\source\\repos\\addingNumbers\\addingNumbers\\addingNumbers.csproj": {
+    "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\addingNumbers\\addingNumbers\\addingNumbers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s201442\\source\\repos\\addingNumbers\\addingNumbers\\addingNumbers.csproj",
+        "projectUniqueName": "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\addingNumbers\\addingNumbers\\addingNumbers.csproj",
         "projectName": "addingNumbers",
-        "projectPath": "C:\\Users\\s201442\\source\\repos\\addingNumbers\\addingNumbers\\addingNumbers.csproj",
+        "projectPath": "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\addingNumbers\\addingNumbers\\addingNumbers.csproj",
         "packagesPath": "C:\\Users\\s201442\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s201442\\source\\repos\\addingNumbers\\addingNumbers\\obj\\",
+        "outputPath": "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\addingNumbers\\addingNumbers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\s201442\\AppData\\Roaming\\NuGet\\NuGet.Config",

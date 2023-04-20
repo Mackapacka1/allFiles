@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\s201442\\source\\repos\\money\\money\\money.csproj": {}
+    "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\money\\money\\money.csproj": {}
   },
   "projects": {
-    "C:\\Users\\s201442\\source\\repos\\money\\money\\money.csproj": {
+    "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\money\\money\\money.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\s201442\\source\\repos\\money\\money\\money.csproj",
+        "projectUniqueName": "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\money\\money\\money.csproj",
         "projectName": "money",
-        "projectPath": "C:\\Users\\s201442\\source\\repos\\money\\money\\money.csproj",
+        "projectPath": "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\money\\money\\money.csproj",
         "packagesPath": "C:\\Users\\s201442\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\s201442\\source\\repos\\money\\money\\obj\\",
+        "outputPath": "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\money\\money\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\s201442\\AppData\\Roaming\\NuGet\\NuGet.Config",

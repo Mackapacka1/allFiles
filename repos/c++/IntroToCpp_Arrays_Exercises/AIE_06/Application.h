@@ -22,7 +22,7 @@ private:
 	Color GetTileColor(int tileValue);
 
 private:
-
+	
 	int m_windowWidth = 800;
 	int m_windowHeight = 800;
 

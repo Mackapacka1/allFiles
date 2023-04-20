@@ -29,7 +29,7 @@ int main(int argc, char** argv)
 
 int MinValue(const int* arr, int count)
 {
-	int smol = 0;
+	int smol = 100;
 	for (size_t i = 0; i < count; i++)
 	{
 		if (arr[i] <= smol) {

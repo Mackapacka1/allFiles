@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\s201442\\source\\repos\\ifStatementsExercise\\ifStatementsExercise\\ifStatementsExercise.csproj",
+      "projectUniqueName": "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\ifStatementsExercise\\ifStatementsExercise\\ifStatementsExercise.csproj",
       "projectName": "ifStatementsExercise",
-      "projectPath": "C:\\Users\\s201442\\source\\repos\\ifStatementsExercise\\ifStatementsExercise\\ifStatementsExercise.csproj",
+      "projectPath": "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\ifStatementsExercise\\ifStatementsExercise\\ifStatementsExercise.csproj",
       "packagesPath": "C:\\Users\\s201442\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\s201442\\source\\repos\\ifStatementsExercise\\ifStatementsExercise\\obj\\",
+      "outputPath": "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\ifStatementsExercise\\ifStatementsExercise\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\s201442\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\s201442\\source\\repos\\sumArray\\sumArray\\sumArray.csproj",
+      "projectUniqueName": "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\sumArray\\sumArray\\sumArray.csproj",
       "projectName": "sumArray",
-      "projectPath": "C:\\Users\\s201442\\source\\repos\\sumArray\\sumArray\\sumArray.csproj",
+      "projectPath": "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\sumArray\\sumArray\\sumArray.csproj",
       "packagesPath": "C:\\Users\\s201442\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\s201442\\source\\repos\\sumArray\\sumArray\\obj\\",
+      "outputPath": "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\sumArray\\sumArray\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\s201442\\AppData\\Roaming\\NuGet\\NuGet.Config",

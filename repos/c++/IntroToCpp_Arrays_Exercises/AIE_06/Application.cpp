@@ -31,12 +31,19 @@ void Application::Run()
 
 void Application::Load()
 {
+
 	// Task1:
 	// Initialise all values in m_tiles array to a random
 	// value between 0 and 5 exclusive;
 	// -----------------------------------------------------
-	
-	// write your code here
+
+	int length = sizeof(m_tiles);
+	for (size_t i = 0; i < length; i++)
+	{
+		int random = rand() % 5;
+		GetTileColor(random);
+		//m_tiles[i] = tileValue
+	}
 
 	// -----------------------------------------------------
 }
@@ -64,6 +71,7 @@ void Application::Update(float deltaTime)
 		if (m_tiles[tileIndex] >= 5)
 			m_tiles[tileIndex] = 0;
 	}
+
 }
 
 void Application::Draw()

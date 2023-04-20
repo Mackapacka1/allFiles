@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\s201442\\source\\repos\\learnVariable\\learnVariable\\learnVariable.csproj",
+      "projectUniqueName": "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\learnVariable\\learnVariable\\learnVariable.csproj",
       "projectName": "learnVariable",
-      "projectPath": "C:\\Users\\s201442\\source\\repos\\learnVariable\\learnVariable\\learnVariable.csproj",
+      "projectPath": "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\learnVariable\\learnVariable\\learnVariable.csproj",
       "packagesPath": "C:\\Users\\s201442\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\s201442\\source\\repos\\learnVariable\\learnVariable\\obj\\",
+      "outputPath": "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\learnVariable\\learnVariable\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\s201442\\AppData\\Roaming\\NuGet\\NuGet.Config",
