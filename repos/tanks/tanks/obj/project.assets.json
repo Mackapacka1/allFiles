@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\s201442\\source\\repos\\tanks\\tanks\\tanks.csproj",
+      "projectUniqueName": "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\tanks\\tanks\\tanks.csproj",
       "projectName": "tanks",
-      "projectPath": "C:\\Users\\s201442\\source\\repos\\tanks\\tanks\\tanks.csproj",
+      "projectPath": "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\tanks\\tanks\\tanks.csproj",
       "packagesPath": "C:\\Users\\s201442\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\s201442\\source\\repos\\tanks\\tanks\\obj\\",
+      "outputPath": "C:\\Users\\s201442\\Documents\\GitHub\\allFiles\\repos\\tanks\\tanks\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\s201442\\AppData\\Roaming\\NuGet\\NuGet.Config",

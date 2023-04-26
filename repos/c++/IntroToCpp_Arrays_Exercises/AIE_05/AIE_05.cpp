@@ -48,33 +48,28 @@ int main(int argc, char** argv)
 	// Expected output:
 	//		a0, a1, a2, a3, a4, b0, b1, b2, b3, b4, c0, c1, c2, c3, c4,
 	// ------------------------------------------------------------------------
-	int i = 0; 
-	int j = 0;
-	int k = 0;
-	while (k<15)
+	int rowIndex = 0;
+	int colIndex = 0;
+
+	for (size_t index = 0; index < 16; index++)
 	{
-
-		std::cout << grid2D[i][j] << ", ";
-		k++;		
-		i = k / 5;
-		j = k % 5;
-
+		std::cout << grid2D[rowIndex][colIndex] << ", ";
+		
+		rowIndex = index / 5;
+		colIndex = index % 5;
 	}
-
 	std::cout << "\n";
 	std::cout << "\n";
 	std::cout << "\n";
 
-	for (int index = 0; index < ROWS * COLS; index++)
-	{
+
 		// TODO: convert "index" to a "rowIndex" and "colIndex" value
-		int rowIndex = 0;
-		int colIndex = 0;
+		
 
 		// use the resulting row and column index to print the value
 
 		//std::cout << grid2D[rowIndex][colIndex] << ", ";
-	}
+	
 
 	// ------------------------------------------------------------------------
 

@@ -31,6 +31,6 @@ private:
 
 	int m_tiles[ROWS * COLS];
 
-	int m_tileWidth = 20;
+	int m_tileWidth =  20;
 	int m_tileHeight = 20;
 };

@@ -1,6 +1,8 @@
 #include "Application.h"
 #include "raylib.h"
 #include <stdlib.h>
+#include <iostream>
+using namespace std;
 
 
 Application::Application()
@@ -36,13 +38,16 @@ void Application::Load()
 	// Initialise all values in m_tiles array to a random
 	// value between 0 and 5 exclusive;
 	// -----------------------------------------------------
-
-	int length = sizeof(m_tiles);
+	
+	int length = ROWS * COLS;
 	for (size_t i = 0; i < length; i++)
 	{
+		
 		int random = rand() % 5;
-		GetTileColor(random);
-		//m_tiles[i] = tileValue
+		
+		m_tiles[i] = random;
+
+
 	}
 
 	// -----------------------------------------------------
@@ -58,6 +63,21 @@ void Application::Update(float deltaTime)
 	if (IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
 	{
 		Vector2 mousePos = GetMousePosition();
+		int whereMouseX = 0;
+		int whereMouseY = 0;
+		system("cls");
+		
+
+		whereMouseX = round(mousePos.x / m_tileWidth);
+		whereMouseY = round(mousePos.y / m_tileHeight);
+		
+		whereMouseY *= 40;
+		cout << whereMouseX;
+		cout << "\n";
+		cout << whereMouseY;
+		cout << "\n";
+		cout << "\n";
+
 
 		// Task 3:
 		// TODO: Calculate row and col index based on the mouse positon
@@ -66,10 +86,17 @@ void Application::Update(float deltaTime)
 
 		// TODO: calculate the index of the tile clicked on based on the row/col index
 		int tileIndex = 0;
+		tileIndex = whereMouseX + whereMouseY;
+		/*if (tileIndex == 1600){
+			tileIndex = 1599;
+		}*/
+		cout <<"tileIndex"<< tileIndex << "\n";
 
+		//m_tiles[tileIndex] = 6;//testing what block changes colour.
 		m_tiles[tileIndex] += 1;
-		if (m_tiles[tileIndex] >= 5)
+		if (m_tiles[tileIndex] >= 5) {
 			m_tiles[tileIndex] = 0;
+		}
 	}
 
 }
@@ -90,11 +117,29 @@ void Application::Draw()
 	// --------------------------------------------------------------------
 	// write your code here
 	float xPos = 0;
-	float yPos = 0;
-	Color color = GetTileColor(1); // pass in the tilevalue
+	float yPos = -20;
+	int j = 0;
+	for (size_t k = 0; k < 40; k++)
+	{
+		yPos = yPos + 20;
+		xPos = 0;
+		for (size_t i = 0; i < 40; i++)
+		{
 
-	DrawRectangle(xPos, yPos, m_tileWidth, m_tileHeight, color);
+			//cout << m_tiles[i];
 
+			Color color = GetTileColor(m_tiles[j]); // pass in the tilevalue
+			DrawRectangle(xPos, yPos, m_tileWidth, m_tileHeight, color);
+			j++;
+			xPos = xPos + 20;
+
+
+		}
+		
+
+	}
+
+	
 	// --------------------------------------------------------------------
 
 	EndDrawing();
