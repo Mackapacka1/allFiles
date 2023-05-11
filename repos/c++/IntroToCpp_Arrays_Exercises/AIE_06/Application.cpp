@@ -71,7 +71,7 @@ void Application::Update(float deltaTime)
 		whereMouseX = round(mousePos.x / m_tileWidth);
 		whereMouseY = round(mousePos.y / m_tileHeight);
 		
-		whereMouseY *= 40;
+		//whereMouseY *= 40;
 		cout << whereMouseX;
 		cout << "\n";
 		cout << whereMouseY;

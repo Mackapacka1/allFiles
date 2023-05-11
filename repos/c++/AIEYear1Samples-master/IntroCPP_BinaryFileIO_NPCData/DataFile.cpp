@@ -64,12 +64,12 @@ void DataFile::Load(string filename)
 	Clear();
 
 	ifstream infile(filename, ios::binary);
-
 	recordCount = 0;
 	infile.read((char*)&recordCount, sizeof(int));
 
 	for (int i = 0; i < recordCount; i++)
 	{		
+		
 		int nameSize = 0;
 		int ageSize = 0;
 		int width = 0, height = 0, format = 0, imageSize = 0;

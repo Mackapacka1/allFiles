@@ -6,15 +6,18 @@ namespace Greetings
 {
     public class Doctor : Person
     {
+        public int salary;
         public override void SayGreeting()
         {
-            Console.WriteLine(greeting + name);
+            Console.WriteLine("Hello, I'm doctor "+ name);
         }
-        
-
-        public Doctor(string Name, float PhoneNumber, string EmailAdress, string Greeting, int Salary) : base(Name, PhoneNumber, EmailAdress, Greeting, Salary)
+        public Doctor()
         {
-            greeting = Greeting;
+
+        }
+
+        public Doctor(string Name, float PhoneNumber, string EmailAdress, int Salary)
+        {
             name = Name;
         }
     }

@@ -9,6 +9,7 @@ using namespace std;
 class DataFile
 {
 public:
+
 	struct Record {
 		Image image;
 		string name;
@@ -28,9 +29,14 @@ public:
 	void AddRecord(string imageFilename, string name, int age);
 	Record* GetRecord(int index);
 
-	int GetRecordCount() { return recordCount; };
+	//returns recordCount
+	int GetRecordCount()
+	{ return recordCount; };
 
+	// save data onto file of name (string filename)
 	void Save(string filename);
+
+	// read data file of name (string filename)
 	void Load(string filename);
 
 private:

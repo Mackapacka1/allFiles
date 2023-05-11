@@ -21,9 +21,11 @@
 
 #include "raylib.h"
 #include "DataFile.h"
+#include <iostream>
 
 int main(int argc, char* argv[])
 {
+
     // Initialization
     //--------------------------------------------------------------------------------------
     int screenWidth = 800;
@@ -36,8 +38,8 @@ int main(int argc, char* argv[])
 
     data.Load("npc_data.dat");
 
-    DataFile::Record* currentRecord = data.GetRecord(currentRecordIdx);
-    Texture2D recordTexture = LoadTextureFromImage(currentRecord->image);
+    DataFile::Record* currentRecord = data.GetRecord(currentRecordIdx); // 
+    Texture2D recordTexture = LoadTextureFromImage(currentRecord->image); //get npc face image
 
 
     SetTargetFPS(60);
@@ -51,6 +53,9 @@ int main(int argc, char* argv[])
         // TODO: Update your variables here
         //----------------------------------------------------------------------------------
 
+
+
+        //navigate through faces using arrow keys
         if (IsKeyPressed(KEY_LEFT))
         {
             currentRecordIdx--;
@@ -61,13 +66,17 @@ int main(int argc, char* argv[])
             currentRecord = data.GetRecord(currentRecordIdx);
             recordTexture = LoadTextureFromImage(currentRecord->image);
         }
-
+        
         if (IsKeyPressed(KEY_RIGHT))
         {
             currentRecordIdx++;
+            /*if the number of the currently selected
+            record is greater than or equal to the length of the record, 
+            loop to the first record.
+            */
             if (currentRecordIdx >= data.GetRecordCount())
             {
-                currentRecordIdx = data.GetRecordCount();
+                currentRecordIdx = 0;
             }
             currentRecord = data.GetRecord(currentRecordIdx);
             recordTexture = LoadTextureFromImage(currentRecord->image);
