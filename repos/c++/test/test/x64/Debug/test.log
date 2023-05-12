@@ -1,6 +1,0 @@
-﻿  test.cpp
-C:\Users\s201442\source\repos\c++\test\test\test.cpp(8,8): error C2512: 'zombie': no appropriate default constructor available
-C:\Users\s201442\source\repos\c++\test\test\zombie.h(4,7): message : see declaration of 'zombie'
-C:\Users\s201442\source\repos\c++\test\test\test.cpp(13,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\s201442\source\repos\c++\test\test\test.cpp(14,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\s201442\source\repos\c++\test\test\test.cpp(71,9): warning C4244: 'argument': conversion from 'size_t' to 'float', possible loss of data
