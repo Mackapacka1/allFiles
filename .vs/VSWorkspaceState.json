@@ -5,11 +5,10 @@
     "\\repos",
     "\\repos\\c++",
     "\\repos\\c++\\snek",
-    "\\repos\\c++\\snek\\RaylibStarterCPP",
     "\\repos\\c++\\snek\\snek",
-    "\\repos\\c++\\snek\\snek\\RaylibStarterCPP",
-    "\\repos\\c++\\snek\\snek\\snek"
+    "\\repos\\c++\\snek\\snek\\RayGUI_Widgets",
+    "\\repos\\c++\\snek\\snek\\RaylibStarterCPP"
   ],
-  "SelectedNode": "\\repos\\c++\\snek\\snek\\snek.sln",
+  "SelectedNode": "\\repos\\c++\\snek\\snek\\RayGUI_Widgets\\main.cpp",
   "PreviewInSolutionExplorer": false
 }

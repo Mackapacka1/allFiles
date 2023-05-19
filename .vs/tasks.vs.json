@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-RaylibStarterCPP",
+      "appliesTo": "repos/c++/snek/snek/RaylibStarterCPP/",
+      "type": "launch"
+    }
+  ]
+}
