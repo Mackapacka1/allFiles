@@ -19,13 +19,12 @@
 *
 ********************************************************************************************/
 
-#include "raylib.h"
 
 #define RAYGUI_IMPLEMENTATION
 #define RAYGUI_SUPPORT_ICONS
 #include "raygui.h"
 #include "map.h"
-#include "snake.cpp"
+#include "snake.h"
 
 
 
@@ -37,6 +36,7 @@ int main(int argc, char* argv[])
     int screenHeight = 800;
 
     InitWindow(screenWidth, screenHeight, "snake");
+    Map map = Map{};
     
 
 
@@ -52,7 +52,11 @@ int main(int argc, char* argv[])
         // Update
         //----------------------------------------------------------------------------------
         int speed = 15;
-        
+        //input original position and starting direction.
+        Map::position.x = 0;
+        Map::position.y = 40;
+        Map::direction.x = 0;
+        Map::direction.y = 1;
 
         //----------------------------------------------------------------------------------
         
@@ -60,7 +64,9 @@ int main(int argc, char* argv[])
         // Draw
         //----------------------------------------------------------------------------------
         BeginDrawing();
-
+        map.initializeMap();
+        ClearBackground(WHITE);
+        map.Draw(speed);
         EndDrawing();
         //----------------------------------------------------------------------------------
     }

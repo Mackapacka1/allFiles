@@ -121,13 +121,4 @@ C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\snek\snek\Raygui\src\raygui
 C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\snek\snek\Raygui\src\raygui.h(3341,26): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
 C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\snek\snek\Raygui\src\raygui.h(3356,107): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\snek\snek\Raygui\src\raygui.h(3356,74): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\snek\snek\RaylibStarterCPP\snake.cpp(27,30): error C2228: left of '.x' must have class/struct/union
-C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\snek\snek\RaylibStarterCPP\snake.cpp(27,49): error C2660: 'map::move': function does not take 1 arguments
-C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\snek\snek\RaylibStarterCPP\map.h(13,14): message : see declaration of 'map::move'
-  map.cpp
-C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\snek\snek\RaylibStarterCPP\map.cpp(24,12): error C2228: left of '.x' must have class/struct/union
-  snake.cpp
-C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\snek\snek\RaylibStarterCPP\snake.cpp(27,30): error C2228: left of '.x' must have class/struct/union
-C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\snek\snek\RaylibStarterCPP\snake.cpp(27,49): error C2660: 'map::move': function does not take 1 arguments
-C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\snek\snek\RaylibStarterCPP\map.h(13,14): message : see declaration of 'map::move'
-  Generating Code...
+  RaylibStarterCPP.vcxproj -> C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\snek\snek\bin\Win32\Debug\RaylibStarterCPP.exe

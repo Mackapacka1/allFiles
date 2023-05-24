@@ -4,18 +4,22 @@
 
 const int Cols = 40;
 const int Rows = 40;
-Vector2 position;
-class map
+
+
+class Map
 {
 public:
-	void draw();
-
-	static void move(int x, int y);
-	Vector2 direction;
+	static void Draw(int deltaTime);
+	void initializeMap();
+	static void Move();
 	static void setDirection(int x, int y);
-	
+	static Vector2 direction;
+	static Vector2 position;
 	//std::vector<Vector2> tail;
 private:
-	Color getMapColour(int mapValue);
+	static Color getMapColour(int mapValue);
+	
+	
+	
 };
 
