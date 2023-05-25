@@ -37,11 +37,18 @@ int main(int argc, char* argv[])
 
     InitWindow(screenWidth, screenHeight, "snake");
     Map map = Map{};
-    
+    Map::position.x = 20;
+    Map::position.y = 20;
+    Map::direction.x = 0;
+    Map::direction.y = 1;
+    //Map::tail.resize(2);
+    //map.setPosition(Map::position.x, Map::position.y);
+    //map.setDirection(Map::direction.x, Map::direction.y);
+    map.initializeMap();
+    map.spawnFruit();
 
 
-
-    SetTargetFPS(60);
+    SetTargetFPS(10);
     //--------------------------------------------------------------------------------------
 
     // Main game loop
@@ -53,10 +60,7 @@ int main(int argc, char* argv[])
         //----------------------------------------------------------------------------------
         int speed = 15;
         //input original position and starting direction.
-        Map::position.x = 0;
-        Map::position.y = 40;
-        Map::direction.x = 0;
-        Map::direction.y = 1;
+
 
         //----------------------------------------------------------------------------------
         
@@ -64,9 +68,9 @@ int main(int argc, char* argv[])
         // Draw
         //----------------------------------------------------------------------------------
         BeginDrawing();
-        map.initializeMap();
+        
+        Snake::Update(deltaTime);
         ClearBackground(WHITE);
-        map.Draw(speed);
         EndDrawing();
         //----------------------------------------------------------------------------------
     }
