@@ -32,20 +32,22 @@ int main(int argc, char* argv[])
 {
     // Initialization
     //--------------------------------------------------------------------------------------
-    int screenWidth = 800;
-    int screenHeight = 800;
+    int screenWidth = Rows*20;
+    int screenHeight = Cols*20;
 
     InitWindow(screenWidth, screenHeight, "snake");
     Map map = Map{};
-    Map::position.x = 20;
-    Map::position.y = 20;
-    Map::direction.x = 0;
-    Map::direction.y = 1;
-    //Map::tail.resize(2);
+    Map::position.x = 0;
+    Map::position.y = Cols;
+    Map::direction.x = -1;
+    Map::direction.y = 0;
+    //Map::tail.resize(398);
+    Map::tail.resize(2);
     //map.setPosition(Map::position.x, Map::position.y);
     //map.setDirection(Map::direction.x, Map::direction.y);
     map.initializeMap();
     map.spawnFruit();
+    map.nextFrame = true;
 
 
     SetTargetFPS(10);
@@ -70,7 +72,7 @@ int main(int argc, char* argv[])
         BeginDrawing();
         
         Snake::Update(deltaTime);
-        ClearBackground(WHITE);
+        ClearBackground(BLACK);
         EndDrawing();
         //----------------------------------------------------------------------------------
     }

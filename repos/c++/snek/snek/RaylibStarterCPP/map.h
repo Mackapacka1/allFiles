@@ -2,19 +2,20 @@
 #include <vector>
 #include "raylib.h"
 
-const int Cols = 40;
-const int Rows = 40;
 
+const int Cols = 20;
+const int Rows = 20;
 
 class Map
 {
 public:
+	static bool nextFrame;
 	static void Draw();
+	//static void win();
 	void initializeMap();
 	static void Move();
 	static void setDirection(int x, int y);
 	static void setPosition(int x, int y);
-	static void addToTail();
 	static void spawnFruit();
 	static Vector2 direction;
 	static Vector2 position;
