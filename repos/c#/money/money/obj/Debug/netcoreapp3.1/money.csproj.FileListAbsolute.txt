@@ -1,0 +1,14 @@
+C:\Users\s201442\source\repos\money\money\bin\Debug\netcoreapp3.1\money.exe
+C:\Users\s201442\source\repos\money\money\bin\Debug\netcoreapp3.1\money.deps.json
+C:\Users\s201442\source\repos\money\money\bin\Debug\netcoreapp3.1\money.runtimeconfig.json
+C:\Users\s201442\source\repos\money\money\bin\Debug\netcoreapp3.1\money.runtimeconfig.dev.json
+C:\Users\s201442\source\repos\money\money\bin\Debug\netcoreapp3.1\money.dll
+C:\Users\s201442\source\repos\money\money\bin\Debug\netcoreapp3.1\money.pdb
+C:\Users\s201442\source\repos\money\money\obj\Debug\netcoreapp3.1\money.csproj.AssemblyReference.cache
+C:\Users\s201442\source\repos\money\money\obj\Debug\netcoreapp3.1\money.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s201442\source\repos\money\money\obj\Debug\netcoreapp3.1\money.AssemblyInfoInputs.cache
+C:\Users\s201442\source\repos\money\money\obj\Debug\netcoreapp3.1\money.AssemblyInfo.cs
+C:\Users\s201442\source\repos\money\money\obj\Debug\netcoreapp3.1\money.csproj.CoreCompileInputs.cache
+C:\Users\s201442\source\repos\money\money\obj\Debug\netcoreapp3.1\money.dll
+C:\Users\s201442\source\repos\money\money\obj\Debug\netcoreapp3.1\money.pdb
+C:\Users\s201442\source\repos\money\money\obj\Debug\netcoreapp3.1\money.genruntimeconfig.cache

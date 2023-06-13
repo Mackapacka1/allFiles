@@ -1,0 +1,9 @@
+﻿  map.cpp
+C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\snek\snek\RaylibStarterCPP\map.cpp(50,26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\snek\snek\RaylibStarterCPP\map.cpp(51,26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\snek\snek\RaylibStarterCPP\map.cpp(72,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\snek\snek\RaylibStarterCPP\map.cpp(73,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\snek\snek\RaylibStarterCPP\map.cpp(175,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\snek\snek\RaylibStarterCPP\map.cpp(176,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\snek\snek\RaylibStarterCPP\map.cpp(193): warning C4715: 'Map::getMapColour': not all control paths return a value
+  RaylibStarterCPP.vcxproj -> C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\snek\snek\bin\Win32\Debug\RaylibStarterCPP.exe

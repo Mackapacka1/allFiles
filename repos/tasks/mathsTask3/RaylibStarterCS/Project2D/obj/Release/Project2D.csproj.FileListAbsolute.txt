@@ -1,8 +1,0 @@
-C:\Users\s201442\Documents\GitHub\allFiles\repos\tasks\mathsTask3\RaylibStarterCS\Project2D\bin\Release\Project2D.exe.config
-C:\Users\s201442\Documents\GitHub\allFiles\repos\tasks\mathsTask3\RaylibStarterCS\Project2D\bin\Release\Project2D.exe
-C:\Users\s201442\Documents\GitHub\allFiles\repos\tasks\mathsTask3\RaylibStarterCS\Project2D\bin\Release\Project2D.pdb
-C:\Users\s201442\Documents\GitHub\allFiles\repos\tasks\mathsTask3\RaylibStarterCS\Project2D\obj\Release\Project2D.csproj.AssemblyReference.cache
-C:\Users\s201442\Documents\GitHub\allFiles\repos\tasks\mathsTask3\RaylibStarterCS\Project2D\obj\Release\Project2D.csproj.SuggestedBindingRedirects.cache
-C:\Users\s201442\Documents\GitHub\allFiles\repos\tasks\mathsTask3\RaylibStarterCS\Project2D\obj\Release\Project2D.csproj.CoreCompileInputs.cache
-C:\Users\s201442\Documents\GitHub\allFiles\repos\tasks\mathsTask3\RaylibStarterCS\Project2D\obj\Release\Project2D.exe
-C:\Users\s201442\Documents\GitHub\allFiles\repos\tasks\mathsTask3\RaylibStarterCS\Project2D\obj\Release\Project2D.pdb

@@ -1,8 +1,0 @@
-C:\Users\s201442\Downloads\C# Unit Test - Student Copy (Structs)\C# Unit Test - Student Copy (Structs)\MathClasses\bin\Debug\MathClasses.exe.config
-C:\Users\s201442\Downloads\C# Unit Test - Student Copy (Structs)\C# Unit Test - Student Copy (Structs)\MathClasses\bin\Debug\MathClasses.exe
-C:\Users\s201442\Downloads\C# Unit Test - Student Copy (Structs)\C# Unit Test - Student Copy (Structs)\MathClasses\bin\Debug\MathClasses.pdb
-C:\Users\s201442\Downloads\C# Unit Test - Student Copy (Structs)\C# Unit Test - Student Copy (Structs)\MathClasses\obj\Debug\MathClasses.csproj.AssemblyReference.cache
-C:\Users\s201442\Downloads\C# Unit Test - Student Copy (Structs)\C# Unit Test - Student Copy (Structs)\MathClasses\obj\Debug\MathClasses.csproj.SuggestedBindingRedirects.cache
-C:\Users\s201442\Downloads\C# Unit Test - Student Copy (Structs)\C# Unit Test - Student Copy (Structs)\MathClasses\obj\Debug\MathClasses.csproj.CoreCompileInputs.cache
-C:\Users\s201442\Downloads\C# Unit Test - Student Copy (Structs)\C# Unit Test - Student Copy (Structs)\MathClasses\obj\Debug\MathClasses.exe
-C:\Users\s201442\Downloads\C# Unit Test - Student Copy (Structs)\C# Unit Test - Student Copy (Structs)\MathClasses\obj\Debug\MathClasses.pdb

@@ -1,2 +1,7 @@
 ﻿  ConsoleApplication1.cpp
+C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\test\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(10,20): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
   ConsoleApplication1.vcxproj -> C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\test\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
