@@ -1,13 +1,11 @@
 #include "DoubleLinkedList.h"
+#include <iostream>
 
-Node* DoubleLinkedList::head_node;
-Node* DoubleLinkedList::tail_node;
-
-void DoubleLinkedList::Insert(Node* nodeInsert, int data)
+void DoubleLinkedList::Insert(Node* nodeInsert, int value)
 {
 
 	Node* new_node = new Node();
-	new_node->data = data;
+	new_node->data = value;
 	new_node->prev = nullptr;
 	new_node->next = (nodeInsert);
 	
@@ -26,6 +24,25 @@ void DoubleLinkedList::Insert(Node* nodeInsert, int data)
 	}
 	return;
 	
+}
+
+Node* DoubleLinkedList::Find(int index) {
+	Node* foundNode = head_node;
+
+	for (size_t i = 1; i < index; i++)
+	{
+		if (foundNode != nullptr)
+		{
+			foundNode = foundNode->next;
+		}
+		if (foundNode == nullptr)
+		{
+			return nullptr;
+		}
+	}
+
+	return foundNode;
+
 }
 void DoubleLinkedList::PushBack(int data) 
 {
@@ -53,9 +70,10 @@ void DoubleLinkedList::PushFront(int data)
 	node->data = data;
 	node->prev = nullptr;
 	node->next = head_node;
-	if (head_node !=nullptr)
+
+	if (head_node != nullptr)
 	{
-		(head_node)->prev = node;
+		head_node->prev = node;
 	}
 	else
 	{
@@ -65,37 +83,55 @@ void DoubleLinkedList::PushFront(int data)
 }
 void DoubleLinkedList::Erase(Node* position) 
 {
-
+	if (head_node == position) {
+		head_node = head_node->next;
+	}
+	if (tail_node == position)
+	{
+		tail_node = tail_node->prev;
+	}
+	if (position->next != nullptr) {
+		position->next->prev = position->prev;
+	}
+	if (position->prev != nullptr) {
+		position->prev->next = position->next;
+	}
+	delete position;
+	
 }
 void DoubleLinkedList::PopFront()
 {
-
-
-	if (&head_node != nullptr) {
-		Node* n = new Node{};
+	Node* n = new Node{};
+	if (head_node != nullptr) {
 		n = head_node;
-		if ((head_node)->next != nullptr) {
-			(head_node)->next->prev = nullptr;
-		}
-		Node* aah = new Node{};
-		aah = (head_node)->next;
-		head_node = aah;
-		delete n;
-		delete aah;
 	}
+	if (head_node->next != nullptr) {
+		head_node->next->prev = nullptr;
+	}
+	head_node = head_node->next;
+	delete n;
 }
+
 void DoubleLinkedList::PopBack()
 {
+	Node* n = new Node{};
 	if (tail_node != nullptr) {
-		Node* n = new Node{};
 		n = tail_node;
-		if ((tail_node)->prev != nullptr) {
-			(tail_node)->prev->next = nullptr;
-		}
-		Node* aah = new Node{};
-		aah = (tail_node)->prev;
-		tail_node = aah;
-		delete n;
-		delete aah;
+	}
+	if (tail_node->prev != nullptr) {
+		tail_node->prev->next = nullptr;
+	}
+	tail_node = tail_node->prev;
+	delete n;
+}
+
+void DoubleLinkedList::Print()
+{
+	Node* current = head_node;
+
+	while (current != nullptr)
+	{
+		std::cout << current->data << " ";
+		current = current->next;
 	}
 }

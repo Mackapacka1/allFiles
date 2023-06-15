@@ -2,42 +2,88 @@
 //
 
 #include <iostream>
-#include "Raylib/include/raylib.h"
 #include "DoubleLinkedList.h"
+#include <random>
 using namespace std;
 int main()
 {
-	while (!WindowShouldClose)
+	DoubleLinkedList list{};
+	bool close = false;
+
+	while (!close)
 	{
-		
-		DoubleLinkedList list = DoubleLinkedList{};
-		Node *n = new Node;
-		cout << "pick a command";
+	
+		cout << "pick a command\n";
 		cout << "1. add a random number to start\n";
 		cout << "2. add a random number to end\n";
 		cout << "3. add a random number to given location\n";
-		cout << "4. erase last number\n";
-		cout << "5. erase first number\n";
-		if (cin == 1) {
-
+		cout << "4. erase first number\n";
+		cout << "5. erase last number\n";
+		cout << "6. erase at given location\n";
+		cout << "7. close application\n";
+		cout << "8. display everything\n";
+		srand((unsigned)time(NULL));
+		int input;
+		cin >> input;
+		if (input == 1) {
+			list.PushFront(rand()%20);
+			system("CLS");
 		}
+		else if (input ==2)
+		{
+			list.PushBack(rand() % 20);
+			system("CLS");
+		}
+		else if (input == 3) {
+			int input2 = NULL;
+			while (input2 == NULL)
+			{
 
-		while (list.head_node != NULL) {
-			cout << list.head_node->data << " ";
-			list.head_node = list.head_node->next;
+				system("CLS");
+				cout << "where to insert";
+				cin >> input2;
+				Node* aah = list.Find(input2);
+				if (aah != nullptr) {
+					list.Insert(aah, rand() % 20);
+					system("CLS");
+				}
+			}
+		}
+		else if (input == 4) {
+			list.PopFront();
+			system("CLS");
+		}
+		else if (input == 5) {
+			list.PopBack();
+			system("CLS");
+		}
+		else if (input == 6) {
+			int input2 = NULL;
+			if (input2 == NULL)
+			{
+				system("CLS");
+				cout << "what position do you want erased";
+
+				cin >> input2;
+				Node* aah = list.Find(input2);
+					if (aah != nullptr) {
+						list.Erase(aah);
+					}
+				system("CLS");
+			}
+		}
+		else if (input == 7) {
+			close = true;
+			system("CLS");
+		}
+		else if (input == 8)
+		{
+			system("CLS");
+			list.Print();
+
+			int x;
+			cin >> x;
+			system("CLS");
 		}
 	}
 }
-
-
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
