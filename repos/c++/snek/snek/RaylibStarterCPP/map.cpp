@@ -39,7 +39,7 @@ void Map::Draw() {
 				x = i * 20;
 				y = j * 20;
 				DrawRectangle(x + 1, y, 18, 18, getMapColour(map[j][i]));
-				//DrawText(TextFormat(" % i ", (j * 20 + i)), x-7, y, 15, BLACK);
+				DrawText(TextFormat(" % i ", (j * 20 + i)), x-7, y, 15, BLACK);
 			}
 		}
 
