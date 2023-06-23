@@ -34,7 +34,43 @@ bool BinaryTree::IsEmpty() const
 // Smaller elements are placed to the left, larger onces are placed to the right.
 void BinaryTree::Insert(int a_nValue)
 {
+	TreeNode* newNode = new TreeNode{a_nValue};
+	//current->SetData(a_nValue);
+	TreeNode* current = m_pRoot;
+	TreeNode* parent = nullptr;
 	
+	if (m_pRoot == nullptr)
+	{
+		m_pRoot = newNode;
+		current = m_pRoot;
+	}
+	while (current != nullptr)
+	{
+		if (a_nValue < current->GetData()) {
+			parent = current;
+			current = current->GetLeft();
+		}
+		else if (a_nValue > current->GetData())
+		{
+			parent = current;
+			current = current->GetRight();
+		}
+		else if (a_nValue == current->GetData())
+		{
+			return;
+		}
+	}
+
+	if (parent->GetData() > a_nValue) {
+		parent->SetLeft(newNode);
+	}
+	else if(parent->GetData() < a_nValue)
+	{
+		parent->SetRight(newNode);
+	}
+	else if (parent->GetData() == a_nValue) {
+		return;
+	}
 }
 
 TreeNode* BinaryTree::Find(int a_nValue)
@@ -47,8 +83,27 @@ TreeNode* BinaryTree::Find(int a_nValue)
 
 bool BinaryTree::FindNode(int a_nSearchValue, TreeNode*& ppOutNode, TreeNode*& ppOutParent)
 {
+	TreeNode* current = m_pRoot;
+	while (current !=nullptr)
+	{
+		if (a_nSearchValue = current->GetData()) {
 
-
+			ppOutNode = current;
+			return true;
+		}
+		else
+		{
+			if (a_nSearchValue < current->GetData()) {
+				ppOutParent = current;
+				current = current->GetLeft();
+			}
+			else
+			{
+				ppOutParent = current;
+				current = current->GetRight();
+			}
+		}
+	}
 	return false;
 }
 

@@ -73,10 +73,10 @@ int main(int argc, char* argv[])
             m_selectedNode = m_binaryTree.Find(valueBoxValue);
         }
 
-        if (GuiButton(Rectangle{ 160, 60, 125, 30 }, GuiIconText(RICON_CROSS, "Remove")))
+        if (GuiButton(Rectangle{ 160, 60, 125, 30 }, GuiIconText(RICON_ARROW_RIGHT, "Find")))
         {
             // Implement the code to remove the node with value = valueBoxValue from your binary tree here! 
-            //m_binaryTree.Remove(valueBoxValue);
+            m_selectedNode = m_binaryTree.Find(valueBoxValue);
         }
 
         // draw the binary tree
