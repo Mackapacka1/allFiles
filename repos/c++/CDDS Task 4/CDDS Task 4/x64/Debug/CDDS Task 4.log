@@ -1,2 +1,5 @@
 ﻿  CDDS Task 4.cpp
+  HashTable.cpp
+C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\CDDS Task 4\CDDS Task 4\HashTable.cpp(18,3): warning C4552: '!': result of expression not used
+  Generating Code...
   CDDS Task 4.vcxproj -> C:\Users\s201442\Documents\GitHub\allFiles\repos\c++\CDDS Task 4\x64\Debug\CDDS Task 4.exe

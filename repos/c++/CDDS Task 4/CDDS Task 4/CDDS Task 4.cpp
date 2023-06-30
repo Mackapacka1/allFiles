@@ -3,16 +3,23 @@
 
 #include <iostream>
 #include "HashHunction.h"
+#include "HashTable.h"
 
 int main()
 {
+    HashTable table = HashTable{};
     const char aaah[] = {'h','e','l','l','o',',',' ','w','o','r','l','d'};
+    std::cout << aaah<<"\n";
     int numba = HashFunction::ELFHash((unsigned char*)aaah, sizeof(aaah));
     int value = HashFunction::badHash(aaah, sizeof(aaah));
     int funnyName = HashFunction::BKDRHash(aaah, sizeof(aaah));
-    std::cout <<"\nbadHash value " << numba;
-    std::cout <<"\nELFHash value " << value;
-    std::cout <<"\nBKDRHash value " << funnyName;
+    std::cout <<"ELFHash "<< numba << " badHash " << value << " BKDRHash " << funnyName << "\n";
+    table.createTable();
+    table.addToTable(numba);
+    table.addToTable(value);
+    table.addToTable(funnyName);
+    table.printTable();
+    delete table.tableArray;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
